@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #000000;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+header img {
+  width: 100%;
+  height: 927px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #1e1a13;
+  padding: 39px 0;
+}
+
+footer p {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.descripcion-iguana {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+  background: #000000;
+}
+
+.descripcion-iguana img {
+  width: 399px;
+  height: 237px;
+}
+
+/* los p deberian estar separados hacia abajo en un mismo parrafo  */
+
+.descripcion-iguana p {
+  width: 475px;
+  margin-bottom: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.caracteristicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  background-color: #1e1a13;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.caracteristicas h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.item-caracteristica {
+  display: flex;
+  gap: 182px;
+}
+
+.caracteristica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.caracteristica i {
+  font-size: 57px;
+}
+
+.caracteristica p {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 73px 0;
+  background-color: #000000;
+}
+
+.galeria img {
+  width: 316px;
+  height: 202px;
+}
